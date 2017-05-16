@@ -15,6 +15,7 @@ Rails.application.routes.draw do
 
   root 'top#index'
 
+  # letter_opener_webのroutingの設定
   if Rails.env.development?
     mount LetterOpenerWeb::Engine, at: "/letter_opener"
   end
