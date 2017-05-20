@@ -1,0 +1,21 @@
+<h1>Listing Poems</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Content</th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @poems.each do |poem| %>
+      <tr>
+        <td><%= poem.title %></td>
+        <td><%= poem.content %></td>
+        <td><%= link_to 'Show', poem %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

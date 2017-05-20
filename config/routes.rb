@@ -8,6 +8,8 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :poems, only: [:index, :show]
+
   resources :contacts, only: [:index, :new, :create] do
     collection do
       post :confirm
