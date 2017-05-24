@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'relationships/create'
-
-  get 'relationships/destroy'
+  get 'notifications/index'
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   # devise_for :
@@ -14,6 +12,10 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :show]
 
   resources :relationships, only: [:create, :destroy]
+
+  resources :conversations, only: [:index, :create] do
+    resources :messages, only: [:index, :create]
+  end
 
   resources :blogs do
     resources :comments
