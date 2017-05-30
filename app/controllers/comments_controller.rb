@@ -25,7 +25,7 @@ class CommentsController < ApplicationController
       format.html { redirect_to blog_path(@blog), notice: 'コメントを削除しました。' }
       format.js { render :index }
     end
-   end
+  end
 
   private
     def comment_params
