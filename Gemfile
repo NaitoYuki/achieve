@@ -45,6 +45,7 @@ group :development, :test do
 
   gem 'pry-rails'
   gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'capistrano', '3.6.0'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
@@ -83,7 +84,6 @@ gem 'carrierwave'
 gem 'rmagick'
 gem 'pusher'
 gem 'fog'
-gem 'dotenv-rails'
 gem 'unicorn'
 
 group :test do

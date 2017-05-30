@@ -42,5 +42,5 @@ Rails.application.configure do
   # 開発環境でメール送信の際、letter_opener_webを使用するように設定
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
   config.action_mailer.delivery_method = :letter_opener_web
-
+  BetterErrors::Middleware.allow_ip! "0.0.0.0/0"
 end
