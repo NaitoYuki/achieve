@@ -67,7 +67,6 @@ gem 'faker'
 
 group :development do
   gem 'letter_opener_web'
-  gem 'dotenv-rails'
   # gem 'web-console', '~> 2.0'
 end
 
@@ -84,6 +83,7 @@ gem 'carrierwave'
 gem 'rmagick'
 gem 'pusher'
 gem 'fog'
+gem 'dotenv-rails'
 gem 'unicorn'
 
 group :test do
