@@ -1,2 +1,6 @@
-server '52.68.180.134', user: 'app', roles: %w{app db web}
-set :ssh_options, keys: '/home/vagrant/.ssh/id_rsa'
+set :stage, :production
+set :rails_env, :production
+
+role :app,   %w{ app@13.113.198.184 }
+role :web,   %w{ app@13.113.198.184 }
+role :db,    %w{ app@13.113.198.184 }
