@@ -1,11 +1,7 @@
-default: &default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
-  template: template0
-development:
-  <<: *default
-  database: achieve_development
 test:
-  <<: *default
-  database: achieve_test
+  adapter: mysql2
+  encoding: utf8
+  database: app_test
+  pool: 5
+  username:
+  password:
