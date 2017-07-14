@@ -8,6 +8,7 @@ dependencies:
   override:
     - bundle install:
     - npm install:
+database:
 test:
   override:
     - bundle exec rspec spec/
