@@ -82,7 +82,7 @@ gem 'omniauth-facebook'
 gem 'carrierwave'
 gem 'rmagick'
 gem 'pusher'
-#gem 'fog'
+gem 'fog'
 gem 'dotenv-rails'
 gem 'unicorn'
 
