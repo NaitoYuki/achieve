@@ -7,7 +7,6 @@ machine:
 dependencies:
   override:
     - bundle install:
-    #- npm install:
 database:
   pre:
     - mv config/database.yml.ci config/database.yml
