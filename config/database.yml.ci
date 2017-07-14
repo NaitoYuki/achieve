@@ -1,5 +1,5 @@
 test:
   adapter: postgresql
   encoding: utf8
-  database: test
+  database: achieve_test
   pool: 5
