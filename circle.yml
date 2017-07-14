@@ -7,7 +7,7 @@ machine:
 dependencies:
   override:
     - bundle install:
-        timeout: 180
+    - npm install:
 database:
   pre:
     - mv config/database.yml.ci config/database.yml

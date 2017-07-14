@@ -1,7 +1,11 @@
-test:
-  adapter: mysql2
-  encoding: utf8
+default: &default
+  adapter: postgresql
+  encoding: unicode
   pool: 5
-  timeout: 10000
+  template: template0
+development:
+  <<: *default
+  database: achieve_development
+test:
+  <<: *default
   database: achieve_test
-  username: ubuntu
