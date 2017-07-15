@@ -4,16 +4,6 @@ machine:
   ruby:
     version:
       2.3.1
-  environment:
-    FACEBOOK_ID_DEVELOPMENT : 1111
-    FACEBOOK_SECRET_DEVELOPMENT : 1111
-    TWITTER_ID_DEVELOPMENT : 1111
-    TWITTER_SECRET_DEVELOPMENT : 1111
-    PUSHER_APP_ID : 1111
-    PUSHER_KEY : 1111
-    PUSHER_SECRET : 1111
-    AWS_ACCESS_KEY_ID : AKIAIR54AKDHW5H47XQ
-    AWS_SECRET_ACCESS_KEY : QKkLC9B8ASfH0+VNz53Cgafdgda1Ha+RFm2pdYd3Mfds
 dependencies:
   override:
     - bundle install:
