@@ -1,2 +1,2 @@
-server '54.92.66.238', user: 'app', roles: %w{app db web}
-set :ssh_options, keys: '/home/vagrant/.ssh/id_rsa'
+server '52.69.221.96', user: 'app', roles: %w{app db web}
+set :ssh_options, keys: '/c/Users/flowe/.ssh/id_rsa'
