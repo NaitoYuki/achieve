@@ -9,6 +9,7 @@ dependencies:
     - sudo pip install awscli
   override:
     - bundle install:
+    - bundle exec cap install:
 database:
   pre:
     - mv config/database.yml.ci config/database.yml
