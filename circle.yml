@@ -20,9 +20,9 @@ database:
 test:
   override:
     - bundle exec rspec spec/
-deployment:
-  staging:
-    branch: master
-    commands:
-      - sh script/deploy-staging.sh:
-          timeout: 1500
+#deployment:
+#  staging:
+#    branch: master
+#    commands:
+#      - sh script/deploy-staging.sh:
+#          timeout: 1500
