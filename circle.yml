@@ -5,6 +5,8 @@ machine:
     version:
       2.3.0
 dependencies:
+  cache_directories:
+    - "vendor/bundle"
   pre:
     - sudo pip install awscli
   override:
