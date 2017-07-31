@@ -2,9 +2,9 @@
 
 export AWS_DEFAULT_REGION="ap-northeast-1"
 
-if [ $1 -eq "staging" ]; then
+if [ $1 = "staging" ]; then
   MYSECURITYGROUP="sg-32853a54"
-elif [ $1 -eq "production" ]; then
+elif [ $1 = "production" ]; then
   MYSECURITYGROUP="*"
 fi
 
