@@ -53,6 +53,8 @@ group :development, :test do
   gem 'capistrano3-unicorn'
   gem "rspec-rails"
   gem "factory_girl_rails"
+  gem 'ruby-debug-ide'
+  gem 'debase'
 end
 
 gem 'twitter-bootstrap-rails'

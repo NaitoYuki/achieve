@@ -98,6 +98,9 @@ GEM
     commonjs (0.2.7)
     concurrent-ruby (1.0.5)
     database_cleaner (1.6.1)
+    debase (0.2.1)
+      debase-ruby_core_source
+    debase-ruby_core_source (0.9.9)
     debug_inspector (0.0.3)
     devise (4.3.0)
       bcrypt (~> 3.0)
@@ -437,6 +440,8 @@ GEM
       rspec-mocks (~> 3.6.0)
       rspec-support (~> 3.6.0)
     rspec-support (3.6.0)
+    ruby-debug-ide (0.6.0)
+      rake (>= 0.8.1)
     rubyzip (1.2.1)
     sass (3.4.24)
     sass-rails (5.0.6)
@@ -517,6 +522,7 @@ DEPENDENCIES
   carrierwave
   coffee-rails (~> 4.1.0)
   database_cleaner
+  debase
   devise
   dotenv-rails
   factory_girl_rails
@@ -537,6 +543,7 @@ DEPENDENCIES
   rails_admin
   rmagick
   rspec-rails
+  ruby-debug-ide
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   selenium-webdriver
@@ -549,4 +556,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.15.0
+   1.15.2
